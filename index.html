@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math</title>  
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body> 
+    <header> <h1>MAth</h1> 
+    
+    </header>  
+
+    <h2>lets start ... tapez yes to see a secret</h2>  
+    <input type="button" class="bn" id="yes" value="yes" onclick="aff();">  
+    <input type="button" class="bn"  id="no" value="Hide secret" onclick="hide();"> 
+    <br> <br> 
+    <div id="d1" style="display: none;"> 
+   <p>a+b=3 >>> red background</p> 
+   <p> a-b=5 >>>> red font </p>
+
+    </div>
+
+<label for="">Enter A</label> 
+<input type="text" id="in1"> 
+<label for="">Enter B</label> 
+<input type="text" id="in2"> 
+<input type="button" value="go" class="bn" onclick="ma();">
+
+<fieldset> 
+    <legend>calcule</legend> 
+ <div id="calc"> 
+    <p id="a">A+B: &nbsp;</p> 
+            
+    <p id="b">A-B : &nbsp;</p> 
+    <p id="c">A*B : &nbsp;</p>  
+    <p id="d">A/B : &nbsp;</p>
+
+
+</div>  
+ </fieldset> 
+
+ <fieldset>  
+     <legend>MAx | MIn | tan | sin |  cos</legend>
+<div> 
+<p id="max">the max is :</p> 
+<p id="min">the min is :</p>
+
+
+
+</div> 
+
+<div>
+   <p id="tan">TAn of A :</p>
+   <p id="tan1">TAn of B :</p>
+
+   <p id="sin">Sin of A :</p>
+   <p id="sin1">Sin of B :</p> 
+
+   <p id="cos">Cos of A :</p>
+   <p id="cos1">Cos of B :</p> 
+
+</div> 
+
+</fieldset>
+
+
+<input type="button" class="bn1" value="apply Secret" onclick="red();">
+    
+</body>
+</html>
